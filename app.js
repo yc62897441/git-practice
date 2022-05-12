@@ -17,7 +17,7 @@ app.get('/branch1', (req, res) => {
 })
 
 app.get('/branch2', (req, res) => {
-  console.log('main update 2022/5/12 09:57 insert this to line 20')
+  console.log('branch3 update 2022/5/12 09:55 insert this to line 20')
   res.render('branch2')
 })
 
