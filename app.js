@@ -8,6 +8,7 @@ app.engine('handlebars', exphbs.engine({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 
 app.get('/', (req, res) => {
+  console.log('main update 2022/5/12 10:10 insert this line')
   res.render('index')
 })
 
