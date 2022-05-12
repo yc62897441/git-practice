@@ -15,6 +15,10 @@ app.get('/branch1', (req, res) => {
   res.render('branch1')
 })
 
+app.get('/branch2', (req, res) => {
+  res.render('branch2')
+})
+
 app.listen(PORT, () => {
   console.log(`Express router is running on http://localhost:${PORT}`)
 })
