@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
 app.get('/branch1', (req, res) => {
   console.log('branch1 update 2022/5/12 09:52')
   console.log('branch1 update 2022/5/12 10:08 insert this to line')
+  console.log('branch1 update 2022/5/12 10:17 insert this to line')
   res.render('branch1')
 })
 
